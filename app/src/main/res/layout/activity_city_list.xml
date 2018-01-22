@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/tlo"
+    tools:context="com.example.piotr.pogoda.CityList"
+    tools:ignore="Overdraw">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:id="@+id/city0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="40dp"
+                android:background="@mipmap/szyba"
+                android:onClick="click"
+                android:text="@string/moja_lokalizacja"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp" />
+
+
+            <Button
+                android:id="@+id/city1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/city0"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@mipmap/szyba"
+                android:onClick="click"
+                android:text="@string/lodz"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/city2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/city1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@mipmap/szyba"
+                android:onClick="click"
+                android:text="@string/warszawa"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/city3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/city2"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@mipmap/szyba"
+                android:onClick="click"
+                android:text="@string/gdansk"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/city4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/city3"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@mipmap/szyba"
+                android:onClick="click"
+                android:text="@string/szczecin"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/city5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/city4"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@mipmap/szyba"
+                android:onClick="click"
+                android:text="@string/olsztyn"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/city6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/city5"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@mipmap/szyba"
+                android:onClick="click"
+                android:text="@string/poznan"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/city7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/city6"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@mipmap/szyba"
+                android:onClick="click"
+                android:text="@string/torun"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/city8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/city7"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@mipmap/szyba"
+                android:onClick="click"
+                android:text="@string/bydgoszcz"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/city9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/city8"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@mipmap/szyba"
+                android:onClick="click"
+                android:text="@string/krakow"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/city10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/city9"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@mipmap/szyba"
+                android:onClick="click"
+                android:text="@string/wroclaw"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/city11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/city10"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@mipmap/szyba"
+                android:onClick="click"
+                android:text="@string/katowice"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/city12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/city11"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@mipmap/szyba"
+                android:onClick="click"
+                android:text="@string/slupsk"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@id/city13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/city12"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@mipmap/szyba"
+                android:onClick="click"
+                android:text="@string/opole"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/city14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/city13"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@mipmap/szyba"
+                android:onClick="click"
+                android:text="@string/bialystok"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/city15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/city14"
+                android:layout_marginBottom="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@mipmap/szyba"
+                android:onClick="click"
+                android:text="@string/kielce"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>
+
+

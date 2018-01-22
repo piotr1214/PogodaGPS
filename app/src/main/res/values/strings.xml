@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name" />
+    <string name="lodz">ŁÓDŹ</string>
+    <string name="warszawa">WARSZAWA</string>
+    <string name="gdansk">GDAŃSK</string>
+    <string name="szczecin">SZCZECIN</string>
+    <string name="olsztyn">OLSZTYN</string>
+    <string name="poznan">POZNAŃ</string>
+    <string name="torun">TORUŃ</string>
+    <string name="bydgoszcz">BYDGOSZCZ</string>
+    <string name="krakow">KRAKÓW</string>
+    <string name="wroclaw">WROCŁAW</string>
+    <string name="katowice">KATOWICE</string>
+    <string name="slupsk">SŁUPSK</string>
+    <string name="opole">OPOLE</string>
+    <string name="bialystok">BIAŁYSTOK</string>
+    <string name="kielce">KIELCE</string>
+    <string name="humidity">Wilgotność: </string>
+    <string name="pressure">Ciśnienie: </string>
+    <string name="moja_lokalizacja">Moja lokalizacja</string>
+    <string name="lista_miast">Lista miast</string>
+</resources>
